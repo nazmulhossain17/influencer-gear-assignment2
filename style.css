@@ -1,3 +1,66 @@
-h1 {
-    color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital@1&family=Gudea&family=Montserrat&family=Poppins:wght@500&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header-title {
+    /* letter-spacing: 5px;*/
+    width: 30%;
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+
+.nav-links li {
+    list-style: none;
+    font-size: 25px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: black;
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 100%;
+    padding-left: 12.98%;
+    padding-top: 3%;
+}
+
+.half-width img {
+    width: 80%;
+}
+
+.button {
+    background-color: #E02C6D;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.hero {
+    text-decoration: none;
+    color: white;
 }
