@@ -6,7 +6,6 @@
 }
 
 .header-title {
-    /* letter-spacing: 5px;*/
     width: 30%;
     font-size: 20px;
     font-family: 'Ubuntu', sans-serif;
@@ -57,13 +56,6 @@ nav {
     padding-left: 12.98%;
     padding-top: 3%;
 }
-
-
-/*.half-width {
-    width: 100%;
-    padding-left: 12.98%;
-    padding-top: 3%;
-} */
 
 .half-width img {
     width: 80%;
@@ -187,14 +179,4 @@ footer h1 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-}
-
-@media only screen and (max-width: 600px) {
-    body .pro-level {
-        background-color: lightblue;
-        width: 50%;
-        content: "";
-        clear: both;
-        float: left;
-    }
 }
