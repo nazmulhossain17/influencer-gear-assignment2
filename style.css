@@ -36,7 +36,7 @@ nav {
 
 .flexible-container {
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .title {
@@ -50,6 +50,13 @@ nav {
     padding-left: 12.98%;
     padding-top: 3%;
 }
+
+
+/*.half-width {
+    width: 100%;
+    padding-left: 12.98%;
+    padding-top: 3%;
+} */
 
 .half-width img {
     width: 80%;
@@ -73,6 +80,8 @@ nav {
 
 .ps {
     text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: 25px;
 }
 
 .pro-level {
@@ -80,11 +89,33 @@ nav {
     margin-left: 5%;
     margin-right: 3%;
     padding-left: 30px;
-    box-shadow: 10px 10px 40px gray;
+    box-shadow: 15px 15px 25px gray;
     box-sizing: border-box;
     margin-top: 10px;
     padding-right: 30px;
     padding-bottom: 90px;
+}
+
+.fa-star {
+    color: orange;
+}
+
+.see-more {
+    display: flex;
+    margin-left: 1446px;
+    font-size: 20px;
+    color: #E02C6D;
+    text-align: right;
+}
+
+.gear img {
+    margin-left: 100px;
+}
+
+.gear-content {
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 1%;
 }
 
 .full-area {
@@ -133,4 +164,15 @@ footer h1 {
 
 .social_media a i {
     font-size: 1.1rem;
+}
+
+.join-button {
+    background-color: #E02C6D;
+    color: ivory;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
