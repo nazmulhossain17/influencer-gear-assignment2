@@ -115,6 +115,11 @@ nav {
     text-align: right;
 }
 
+.see-more a {
+    text-decoration: none;
+    color: #E02C6D;
+}
+
 .gear img {
     margin-left: 100px;
 }
@@ -182,4 +187,14 @@ footer h1 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+    body .pro-level {
+        background-color: lightblue;
+        width: 50%;
+        content: "";
+        clear: both;
+        float: left;
+    }
 }
